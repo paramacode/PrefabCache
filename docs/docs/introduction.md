@@ -33,7 +33,7 @@ An object pool solves this by **pre-creating** instances ahead of time and recyc
     import { PrefabCache } from "@rbxts/prefab-cache";
     import { ReplicatedStorage } from "@rbxts/services";
 
-    const template = ReplicatedStorage.FindFirstChild("BulletPrefab") as Part;
+    const template = ReplicatedStorage.FindFirstChild("BulletPrefab");
 
     // Pre-create 20 bullets
     const bulletPool = PrefabCache.Create(template, 20);
