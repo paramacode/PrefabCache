@@ -1,6 +1,6 @@
 [package]
 name = "paramacode/prefabcache"
-version = "0.1.0"
+version = "1.0.0"
 description = "A typed and configurable pooling system for Roblox instances that efficiently manages prefab cloning, reuse, and lifecycle with automatic expansion."
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
