@@ -2,7 +2,7 @@
   "name": "@rbxts/prefabcache",
   "version": "1.0.0",
   "description": "",
-  "main": "out/init.lua",
+  "main": "out",
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w",
