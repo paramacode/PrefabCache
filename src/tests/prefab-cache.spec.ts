@@ -102,8 +102,7 @@ export = () => {
             parent.Destroy();
         });
 
-        // SetCacheParent should move both open and in-use prefabs to
-        // the new parent (must be descendant of Workspace).
+        // SetCacheParent should move both open and in-use prefabs to the new parent (must be descendant of Workspace).
         it("SetCacheParent moves open and in-use prefabs", () => {
             const template = new Instance("Part");
             template.Archivable = true;
